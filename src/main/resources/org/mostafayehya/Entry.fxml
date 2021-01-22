@@ -15,7 +15,7 @@
             <children>
                 <ImageView fx:id="userImageView" fitHeight="94.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/me.JPEG" />
+                        <Image url="@images/img.png" />
                     </image>
                 </ImageView>
                 <Button fx:id="choosePicButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#choosePicture" prefWidth="100.0" text="Choose pic" />

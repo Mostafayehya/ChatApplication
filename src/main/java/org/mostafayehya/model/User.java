@@ -6,6 +6,7 @@ public class User {
 
     private Image image;
     private String name;
+    private String currentMessage;
 
     public User(){
 
@@ -29,5 +30,13 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getCurrentMessage() {
+        return currentMessage;
+    }
+
+    public void setCurrentMessage(String currentMessage) {
+        this.currentMessage = currentMessage;
     }
 }
